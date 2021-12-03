@@ -1,9 +1,6 @@
 /*Hugo Savard Fichier CSS pour PFI*/
 
-body{
-    background-color: #d0d0d0;
-}
-
+/*HEADER*/
 .top-page{
     background-color: #b6b6b6;
     display: grid;
@@ -53,9 +50,51 @@ body{
     color: #8d0000;
 }
 
-
 .logo-top{
     height: 35vh;
+    position:relative;
+    bottom: 15%;
+    
+}
+
+/*BODY*/
+body{
+    background-color: #d0d0d0;
+    
+}
+.corps-page{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 6fr 4fr;
+}
+
+.introduction-jeux{
+    color: #8d0000;
+    
+    
+}
+.intertitre-intro{
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+}
+.texte-intro{
+    display: flex;
+    justify-content: center;
+    font-size: 140%;
+}
+.section-image-intro{
+    display: flex;
+    flex-direction: column;
+}
+.image-intro{
+    display: flex;
+    border-radius: 10%;
     position: relative;
-    bottom: 39px;
+    top: 10vh;
+}
+.legende-photo-intro{
+    display: flex;
+    color: #8d0000;
+    font-size: 30%;
 }
