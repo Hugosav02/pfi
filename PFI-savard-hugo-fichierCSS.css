@@ -1,0 +1,61 @@
+/*Hugo Savard Fichier CSS pour PFI*/
+
+body{
+    background-color: #d0d0d0;
+}
+
+.top-page{
+    background-color: #b6b6b6;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    height: 25vh;
+    
+    
+}
+
+.top-partie-gauche{
+    display: grid;
+    grid-template-rows: 10fr 9fr;
+}
+
+.titre-page{
+    color: #8d0000;
+    font-family: EB Garamond;
+    font-size: 600%;
+    position: relative;
+    left: 50px;
+}
+
+.index{
+   display: flex;
+   justify-content: space-around;    
+   
+}
+
+.boutton-index{
+    border: solid #8d0000 2px;
+    font-size: 110%;
+    color: black;
+    padding: 4px;
+    height: 3vh;
+    display: flex;
+}
+.lien-index:link{
+    color: #000000;
+}
+.lien-index:hover{
+    color: #8d0000;
+}
+.lien-index:visited{
+    color: rgb(00,00,00);
+}
+.lien-index:active{
+    color: #8d0000;
+}
+
+
+.logo-top{
+    height: 35vh;
+    position: relative;
+    bottom: 39px;
+}
