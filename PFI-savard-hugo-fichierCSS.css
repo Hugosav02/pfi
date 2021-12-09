@@ -1,5 +1,5 @@
 /*Hugo Savard Fichier CSS pour PFI*/
-
+/*general*/
 /*HEADER*/
 .top-page{
     background-color: #b6b6b6;
@@ -9,26 +9,22 @@
     
     
 }
-
 .top-partie-gauche{
     display: grid;
     grid-template-rows: 10fr 9fr;
 }
-
-.titre-page{
+#titre-page{
     color: #8d0000;
     font-family: EB Garamond;
     font-size: 600%;
     position: relative;
     left: 50px;
 }
-
 .index{
    display: flex;
    justify-content: space-around;    
    
 }
-
 .boutton-index{
     border: solid #8d0000 2px;
     font-size: 110%;
@@ -49,7 +45,6 @@
 .lien-index:active{
     color: #8d0000;
 }
-
 .logo-top{
     height: 35vh;
     position:relative;
@@ -57,7 +52,25 @@
     
 }
 
-/*BODY*/
+p{
+    color: #8d0000;
+}
+
+/*FOOTER*/
+.pied-page{
+    background-color: #b6b6b6;
+    height: 10vh;
+}
+.crédit{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    color: #8d0000;
+    font-size: larger;
+}
+
+/*PAGE 1*/
+
 body{
     background-color: #d0d0d0;
     
@@ -65,13 +78,7 @@ body{
 .corps-page{
     display: grid;
     grid-template-columns: 6fr 4fr;
-    grid-template-rows: 6fr 4fr;
-}
-
-.introduction-jeux{
-    color: #8d0000;
-    
-    
+    grid-template-rows: 6fr 1fr 4fr;
 }
 .intertitre-intro{
     font-size: 300%;
@@ -81,11 +88,13 @@ body{
 .texte-intro{
     display: flex;
     justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
     font-size: 140%;
 }
 .section-image-intro{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: 9fr 1fr;
 }
 .image-intro{
     display: flex;
@@ -95,6 +104,85 @@ body{
 }
 .legende-photo-intro{
     display: flex;
+    grid-column-start: 2;
+    position: relative;
+    top: 5vh;
+    font-size: 80%;
+    justify-content: center;
+}
+.quotes{
+    display: flex;
+    position: relative;
+    top: 10vh;
+    left: 8vw;
+    font-size: 160%;
+}
+.quotes2{
+    display: flex;
+    position: relative;
+    top: 30vh;
+    left: 8vw;
+    font-size: 160%;
+}
+
+/*PAGE 2*/
+
+.corps2{
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 10fr 2fr;
+}
+.assassins{
+    display: grid;
+    border: solid #8d0000;
+    border-radius: 5%;
+    grid-template-rows: 6fr 4fr;
     color: #8d0000;
-    font-size: 30%;
+    
+}
+.assassins:hover{
+    background-color: #8d0000;
+    color: white;
+}
+.description{
+    padding: 5%;
+    font-size: larger;
+}
+.altair{
+    display: flex;
+    position: relative;
+    left: 7vw;
+    height: 597px;
+    width: 248px;
+}
+.ezio{
+    display: flex;
+    position: relative;
+    left: 7vw;
+    height: 597px;
+    width: 248px;
+}
+.connor{
+    display: flex;
+    position: relative;
+    left: 7vw;
+    height: 597px;
+    width: 300px;
+}
+.lien-plus-info{
+    grid-column-start: 2;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10vh;
+    font-size: larger;  
+}
+.lien-assassins{
+    color: #8d0000;
+}
+.lien-assassins:visited{
+    color: #8d0000;
+}
+.lien-assassins:active{
+    color: black;
 }
