@@ -66,6 +66,7 @@ h1{
     font-size: 300%;
     display: flex;
     justify-content: center;
+    color: #8d0000;
 }
 /*FOOTER*/
 .pied-page{
@@ -83,8 +84,8 @@ h1{
 /*PAGE 1*/
 .corps-page{
     display: grid;
-    grid-template-columns: 6fr 4fr;
-    grid-template-rows: 6fr 1fr 4fr;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 6fr 1fr 2fr;
 }
 
 .texte-intro{
@@ -121,9 +122,9 @@ h1{
 }
 .quotes2{
     display: flex;
-    position: relative;
+    /*position: relative;
     top: 30vh;
-    left: 8vw;
+    left: 8vw;*/
     font-size: 160%;
 }
 
