@@ -51,11 +51,22 @@
     bottom: 15%;
     
 }
+body{
+    background-color: #d0d0d0;
+    
+}
 
 p{
     color: #8d0000;
 }
-
+string{
+    color: #8d0000;
+}
+h1{
+    font-size: 300%;
+    display: flex;
+    justify-content: center;
+}
 /*FOOTER*/
 .pied-page{
     background-color: #b6b6b6;
@@ -70,21 +81,12 @@ p{
 }
 
 /*PAGE 1*/
-
-body{
-    background-color: #d0d0d0;
-    
-}
 .corps-page{
     display: grid;
     grid-template-columns: 6fr 4fr;
     grid-template-rows: 6fr 1fr 4fr;
 }
-.intertitre-intro{
-    font-size: 300%;
-    display: flex;
-    justify-content: center;
-}
+
 .texte-intro{
     display: flex;
     justify-content: center;
@@ -126,7 +128,6 @@ body{
 }
 
 /*PAGE 2*/
-
 .corps2{
     display: grid;
     grid-template-columns: 5fr 5fr 5fr;
@@ -185,4 +186,32 @@ body{
 }
 .lien-assassins:active{
     color: black;
+}
+
+/*PAGE 3*/
+.corps3{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 5fr 5fr;
+}
+.intro-conflit{
+    display: grid;
+    grid-template-rows: 2fr 4fr;
+}
+.texte-conflit{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 140%;
+}
+.logo-templier{
+    height: 400px;
+    width: 400px;
+}
+.liste-nom{
+    font-size: larger;
+}
+li:nth-child(odd){
+    color: #8d0000;
 }
