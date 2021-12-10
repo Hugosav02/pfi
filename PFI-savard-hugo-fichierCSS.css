@@ -178,13 +178,13 @@ h1{
     top: 10vh;
     font-size: larger;  
 }
-.lien-assassins{
+.lien-personnage{
     color: #8d0000;
 }
-.lien-assassins:visited{
+.lien-personnage:visited{
     color: #8d0000;
 }
-.lien-assassins:active{
+.lien-personnage:active{
     color: black;
 }
 
@@ -209,9 +209,49 @@ h1{
     height: 400px;
     width: 400px;
 }
+.image-conflit{
+    border-radius: 10%;
+    position: relative;
+    left: 6%;
+}
 .liste-nom{
     font-size: larger;
 }
 li:nth-child(odd){
     color: #8d0000;
+}
+/*PAGE4*/
+.corps4{
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 5fr 5fr;
+}
+.intro-réalité{
+    display: grid;
+    grid-template-rows: 2fr 4fr;
+}
+.texte-réalité{
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 140%;
+}
+.perso-historique{
+    font-size: larger;
+    padding: 4%;
+}
+td{
+    border: #8d0000 2px solid;
+}
+.tableau-date{
+    position: relative;
+    top: 30%;
+    right: 3%;
+    
+}
+.image-décors{
+    border-radius: 10%;
+    position: relative;
+    left: 7%;
 }
